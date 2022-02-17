@@ -23,6 +23,6 @@ export default class  MessageInput {
   readonly content: string;
 
   @Field()
-  readonly user:  MessageUserInput;
+  readonly user:  MessageUserInput
 }
 
